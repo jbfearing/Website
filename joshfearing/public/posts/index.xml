@@ -7,12 +7,5 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Website</title>
-      <link>http://localhost:1313/posts/website/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/website/</guid>
-      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;&#xA;&lt;p&gt;Personal website for Josh Fearing.&#xA;Currently living in a &lt;a href=&#34;https://madisoncommunitycoop.managebuilding.com/Resident/public/home&#34;&gt;housing cooperative&lt;/a&gt; in my birthplace: &lt;a href=&#34;https://en.wikipedia.org/wiki/Madison,_Wisconsin&#34;&gt;Madison, Wisconsin&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;education-work-skills&#34;&gt;Education / Work / Skills&lt;/h2&gt;&#xA;&lt;p&gt;I graduated from &lt;a href=&#34;https://en.wikipedia.org/wiki/Vassar_College&#34;&gt;Vassar College&lt;/a&gt; in 2023 with degrees in Philosophy and German.&#xA;In 2026, I received a &lt;a href=&#34;https://www.cs.wisc.edu/grad/programs/capstone/&#34;&gt;Professional Capstone Certificate&lt;/a&gt; in Computer Sciences from the University of Wisconsin-Madison.&#xA;Since graduating I&amp;rsquo;ve worked at Epic Systems, where I focus on analytics products for clinician efficiency and regulatory programs.&lt;/p&gt;&#xA;&lt;h2 id=&#34;this-site&#34;&gt;This Site&lt;/h2&gt;&#xA;&lt;p&gt;I write this site in &lt;a href=&#34;https://orgmode.org&#34;&gt;orgmode&lt;/a&gt; using &lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;Emacs&lt;/a&gt; - &lt;a href=&#34;https://github.com/doomemacs/doomemacs&#34;&gt;Doom Emacs&lt;/a&gt;, specifically.&#xA;I convert these .org files to .md files and serve them with Hugo.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

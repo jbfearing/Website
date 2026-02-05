@@ -1,1 +1,65 @@
-/* Override this file to customise the theme's CSS for your site */
+/* Remove fake terminal command symbols while keeping the aesthetic */
+
+/* Remove [title] $ prompt from logo */
+.page__logo-inner:before,
+.page__logo-inner:after {
+    content: none;
+}
+
+/* Remove ./ prefix from navigation */
+.main-nav li::marker {
+    content: none;
+}
+
+.main-nav li {
+    list-style: none;
+}
+
+/* Remove # ## ### from headings */
+h1:before,
+h2:before,
+h3:before,
+h4:before,
+h5:before,
+h6:before {
+    content: none;
+}
+
+/* Remove > from blockquotes */
+blockquote::before {
+    content: none;
+}
+
+blockquote {
+    margin-left: 0;
+    padding-left: 1rem;
+    border-left: 3px solid var(--muted);
+}
+
+/* Remove --- text from hr */
+hr:after {
+    content: none;
+}
+
+hr {
+    border-top: 1px solid var(--muted);
+}
+
+/* Profile image styling */
+.profile-photo {
+    float: right;
+    margin: 0 0 1rem 1.5rem;
+    max-width: 250px;
+}
+
+.profile-photo img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.profile-photo figcaption {
+    font-size: 0.85em;
+    color: var(--muted);
+    text-align: center;
+    margin-top: 0.5rem;
+}

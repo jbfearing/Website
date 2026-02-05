@@ -2,3 +2,25 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Josh Fearing'
 theme = 'risotto'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[permalinks]
+  blog = "/blog/:slug/"
+
+[menu]
+  [[menu.main]]
+    name = "blog"
+    url = "/blog"
+    weight = 1
+  [[menu.main]]
+    name = "projects"
+    url = "/projects"
+    weight = 2
+  [[menu.main]]
+    name = "resume"
+    url = "/resume"
+    weight = 3

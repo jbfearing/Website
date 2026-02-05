@@ -4,9 +4,15 @@ draft = true
 title = 'index'
 +++
 
-Personal website for Josh Fearing 
+Personal website for Josh Fearing
 
 ## About Me {#about-me}
+
+<figure class="profile-photo">
+  <img src="/josh.jpg" alt="Josh Fearing">
+  <figcaption>Devil's Lake State Park, Sauk County, Wisconsin</figcaption>
+</figure>
+
 Programmer, cyclist, amateur musician.  
 Interested in cooperative living, public transit, and doing good with technology.  
 Currently living in a [housing cooperative](https://madisoncommunitycoop.managebuilding.com/Resident/public/home) in [Madison, Wisconsin](https://en.wikipedia.org/wiki/Madison,_Wisconsin).
@@ -20,8 +26,9 @@ Currently living in a [housing cooperative](https://madisoncommunitycoop.manageb
 Since graduating I've worked at [Epic Systems](https://www.epic.com), where I focus on analytics products for clinician efficiency and regulatory programs.
 
 ## This Site {#this-site}
-I write this site in [orgmode](https://orgmode.org) using [Emacs](https://www.gnu.org/software/emacs/) - [Doom Emacs](https://github.com/doomemacs/doomemacs), specifically.  
-I convert these .org files to .md files and serve them with Hugo.
+I write [this site](https://github.com/jbfearing/Website) in [orgmode](https://orgmode.org) using [Emacs](https://www.gnu.org/software/emacs/).   
+Specifcally, I use the [Doom Emacs](https://github.com/doomemacs/doomemacs).  
+I convert these .org files to .md files and serve them with [Hugo](https://gohugo.io).
 
 ## Contact / Links {#contact-links}
 - jbfearing@protonmail.com
